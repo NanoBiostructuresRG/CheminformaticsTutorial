@@ -74,6 +74,7 @@ The purpose of this tutorial is to help you:
 
 ## Repository Structure
 ```text
+├── 00_Environment_Setup/       # Installation
 ├── 01_Data_Acquisition/        # APIs, SMILES, Data Curation
 ├── 02_Feature_Engineering/     # 2D Descriptors & Fingerprints
 ├── 03_Predictive_Modeling/     # Machine Learning & Model Validation
@@ -89,6 +90,11 @@ The purpose of this tutorial is to help you:
 * **Pandas / NumPy** (Data manipulation)
 * **Scikit-Learn** (Machine Learning)
 * **Matplotlib / Seaborn** (Visualization)
+
+* **Anaconda**
+* **environment.yml**
+
+* **VS Code**
 
 ---
 
