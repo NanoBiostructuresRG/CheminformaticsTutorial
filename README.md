@@ -13,6 +13,14 @@ This tutorial on **Cheminformatics in Drug Discovery** simulates a six-month res
 
 ---
 
+## Pedagogical Approach
+
+This tutorial follows a **bottom-up** computational workflow, progressively constructing the pipeline from raw molecular representations to predictive modeling and ligand-based virtual screening.
+
+Pedagogically, it adopts a **project-based learning (PBL)** framework. Learners simulate the responsibilities of a computational chemist within a structured research timeline, developing technical rigor, methodological coherence, and reproducible scientific practice.
+
+---
+
 ## Curriculum Overview
 
 ### MODULE 1: Data Acquisition & Molecular Representation (Month 1-2)
