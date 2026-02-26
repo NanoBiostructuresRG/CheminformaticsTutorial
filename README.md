@@ -9,7 +9,7 @@
 
 ## Description
 
-This tutorial on **Cheminformatics in Drug Discovery** simulates a six-month research workflow, guiding the transitio from raw chemical data acquisition to predictive modeling and virtual screening.
+This tutorial on **Cheminformatics in Drug Discovery** simulates a six-month research workflow, guiding the transition from raw chemical data acquisition to predictive modeling and ligand-based virtual screening of large chemical libraries.
 
 ---
 
@@ -18,56 +18,59 @@ This tutorial on **Cheminformatics in Drug Discovery** simulates a six-month res
 ### MODULE 1: Data Acquisition & Molecular Representation (Month 1-2)
 *Focus: Establishing the digital foundation of chemical matter.*
 
-* **Chemical Notation:** Systematic understanding of SMILES, InChI, and connection tables (.SDF, .MOL).
-* **Programmatic Access:** Automated data retrieval from **ChEMBL** and **PubChem** using Python APIs.
-* **Data Curation:** Structural standardization, salt stripping, and tautomer handling via **RDKit**.
-* **Environment Setup:** Configuring VS Code for high-throughput chemical scripting.
+* **Chemical Notation:** SMILES, InChI, and structure file formats (.SDF, .MOL).
+* **Programmatic Access:** Automated data retrieval from **PubChem** and **ChEMBL** using Python APIs.
+* **Data Curation:** Structural standardization, salt stripping, and tautomer handling with **RDKit**.
+* **Environment Setup:** Configuring VS Code for computational chemistry workflows.
+
 
 ### MODULE 2: Feature Engineering & Exploratory Data Analysis (Month 2-3)
-*Focus: Quantifying chemical structures for computational analysis.*
+*Focus: Quantifying and exploring chemical structure.*
 
-* **Molecular Descriptors:** Calculation of 1D, 2D, and 3D physicochemical properties (LogP, MW, PSA).
-* **Molecular Fingerprints:** Implementation of ECFP4/Morgan fingerprints for similarity assessment.
-* **EDA (Exploratory Data Analysis):** Visualizing chemical space and property distributions using Matplotlib and Seaborn.
+* **Molecular Descriptors:** Calculation of key 1D and 2D physicochemical properties (LogP, MW, PSA).
+* **Molecular Fingerprints:** Implementation of ECFP4/Morgan fingerprints for similarity and modeling.
+* **Exploratory Data Analysis:** Visualization of property distributions and chemical space using Matplotlib and Seaborn.
+
 
 ### MODULE 3: Predictive Modeling & QSAR (Month 4-5)
-*Focus: Applying Machine Learning to relate structure to biological activity.*
+*Focus: Learning structure–activity relationships through machine learning.*
 
-* **Model Training:** Supervised learning algorithms including **Logistic Regression** and **Random Forest**.
-* **Model Validation:** Evaluation through RMSE, $R^2$, and ROC-AUC metrics.
-* **QSAR Replication:** Replicating literature-based Quantitative Structure-Activity Relationship (QSAR) models.
+* **Model Training:** Supervised learning algorithms such as **Logistic Regression** and **Random Forest**.
+* **Model Validation:** Evaluation using ROC-AUC, precision-recall analysis, and cross-validation strategies.
+* **Performance Interpretation:** Feature importance and model behavior analysis.
+
 
 ### MODULE 4: Virtual Screening & Implementation (Month 6)
-*Focus: Applying the pipeline to identify potential drug leads.*
+*Focus: Applying predictive models to prioritize candidate compounds.*
 
-* **Virtual Screening:** Applying trained models to predict activity in commercial or natural product libraries (e.g., **COCONUT**).
-* **Ligand Design:** Criteria for hit selection and chemical optimization.
-* **Scientific Synthesis:** Summarizing findings into technical reports and research presentations.
+* **Ligand-Based Virtual Screening:** Applying trained models to large chemical libraries (e.g., COCONUT or ChEMBL subsets).
+* **Candidate Prioritization:** Probability thresholding and filtering strategies.
+* **Scientific Reporting:** Preparing reproducible reports and technical summaries.
 
 ---
 
 ## Purpose
 The purpose of this tutorial is to help you:
 
-- Master Molecular Representation: Develop a rigorous understanding of how chemical structures are digitized, standardized, and manipulated using computational tools.
+- **Master Molecular Representation**: Develop a rigorous understanding of how chemical structures are digitized, standardized, and manipulated using computational tools.
 
-- Implement Automated Workflows: Transition from manual data handling to automated, programmatic data retrieval and curation from global chemical databases (ChEMBL, PubChem).
+- **Implement Automated Workflows**: Transition from manual data handling to automated, programmatic retrieval and curation of chemical data from global databases such as ChEMBL and PubChem.
 
-- Bridge Chemistry and Data Science: Apply statistical and machine learning methods—specifically QSAR (Quantitative Structure-Activity Relationship)—to predict biological activity and toxicity.
+- **Integrate Chemistry and Machine Learning**: Apply statistical and machine learning methods to model structure–activity relationships and predict biological activity..
 
-- Execute Virtual Screenings: Design and deploy a full discovery pipeline to identify potential drug leads from massive chemical libraries (e.g., COCONUT).
+- **Perform Ligand-Based Virtual Screening**: Deploy trained models to evaluate and prioritize compounds from large chemical libraries (e.g., COCONUT).
 
-- Develop Professional Research Skills: Simulate the responsibilities of a computational chemist in a laboratory setting, focusing on reproducible code, rigorous validation, and scientific synthesis of results.
+- **Develop Professional Computational Practices**: Simulate the workflow of a computational chemist, emphasizing reproducible code, rigorous validation, and clear scientific reporting..
 
 ---
 
 ## Repository Structure
 ```text
-├── 01_Data_Acquisition/     # APIs, SMILES, and Data Cleaning
-├── 02_Feature_Engineering/  # 2D/3D Descriptors & Fingerprints
-├── 03_QSAR_Modeling/        # Machine Learning & Model Evaluation
-├── 04_Virtual_Screening/    # Application to COCONUT/ZINC libraries
-└── 05_Bioinfo_Context/      # Omics and Target Identification
+├── 01_Data_Acquisition/        # APIs, SMILES, Data Curation
+├── 02_Feature_Engineering/     # 2D Descriptors & Fingerprints
+├── 03_Predictive_Modeling/     # Machine Learning & Model Validation
+├── 04_Virtual_Screening/       # Ligand-based screening on large libraries
+└── 05_Reporting/               # Reproducible analysis & technical reports
 
 ```
 ---
