@@ -1,9 +1,9 @@
 # Module 1: Data Acquisition & Molecular Representation
 
-## Timeline: 
+### Timeline: 
 Month 1–2
 
-## Focus: 
+### Focus: 
 Establishing the digital foundation of chemical data
 
 ---
@@ -12,7 +12,7 @@ Establishing the digital foundation of chemical data
 
 This module introduces the fundamental concepts required to represent, retrieve, and curate chemical data in a computational workflow.
 
-By the end of this module, you will understand how chemical structures are encoded digitally and how to construct a clean, analysis-ready dataset from public chemical databases.
+By the end of this module, you will understand how chemical structures are encoded digitally and how to construct a clean, analysis-ready molecular dataset from public chemical databases.
 
 ---
 
@@ -22,8 +22,9 @@ After completing this module, you will be able to:
 
 - Interpret and manipulate molecular representations (SMILES, InChI).
 - Work with common structure file formats (.SDF, .MOL).
-- Retrieve chemical data programmatically from PubChem and ChEMBL.
-- Apply structural standardization techniques using RDKit.
+- Retrieve chemical data programmatically from **PubChem** and **ChEMBL**.
+- Compare structural and metadata differences between databases.
+- Apply structural standardization techniques using **RDKit**.
 - Generate a curated dataset ready for feature engineering.
 
 ---
@@ -35,9 +36,9 @@ After completing this module, you will be able to:
     - Structure file formats (.SDF, .MOL)
 
 2. Programmatic Data Access
-    - Introduction to chemical database APIs
-    - Automated retrieval from PubChem
-    - Automated retrieval from ChEMBL
+    - Introduction to PubChem REST API
+    - Introduction to ChEMBL API
+    - Data parsing and format differences
 
 3. Data Curation with RDKit
     - Structure validation
@@ -65,10 +66,14 @@ After completing this module, you will be able to:
 
 By the end of this module, you should produce:
 
-- A curated dataset (e.g., curated_dataset.csv)
-- Standardized SMILES representations
-- Clean identifiers suitable for downstream modeling
-- This dataset will serve as the foundation for Module 2 (Feature Engineering).
+- A raw dataset retrieved from PubCHem
+- A raw dataset retrieved from ChEMBL
+- A curated molecular dataset (e.g., `curated_dataset.csv`)
+    - Standardized SMILES representations
+    - Clean molecular identifiers
+    - Remotion of duplicates, salts, etc. 
+
+These datasets will serve as the structural foundation for subsequent modules.
 
 ---
 
