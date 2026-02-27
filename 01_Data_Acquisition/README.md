@@ -1,7 +1,7 @@
 # Module 1: Data Acquisition & Molecular Representation
 
 ### Timeline: 
-Month 1–2
+Month 1
 
 ### Focus: 
 Establishing the digital foundation of chemical data
@@ -20,9 +20,9 @@ By the end of this module, you will understand how chemical structures are encod
 
 After completing this module, you will be able to:
 
-- Interpret and manipulate molecular representations (SMILES, InChI).
-- Work with common structure file formats (.SDF, .MOL).
 - Retrieve chemical data programmatically from **PubChem** and **ChEMBL**.
+- Interpret and manipulate molecular representations (`SMILES`, `InChIKey`).
+- Work with common structure file formats (`.SDF`, `.MOL`).
 - Compare structural and metadata differences between databases.
 - Apply structural standardization techniques using **RDKit**.
 - Generate a curated dataset ready for feature engineering.
@@ -30,15 +30,15 @@ After completing this module, you will be able to:
 ---
 
 # Core Topics
-1. Chemical Notation
-    - SMILES and canonical SMILES
-    - InChI and InChIKey
-    - Structure file formats (.SDF, .MOL)
-
-2. Programmatic Data Access
+1. Programmatic Data Access
     - Introduction to PubChem REST API
     - Introduction to ChEMBL API
     - Data parsing and format differences
+
+2. Chemical Notation
+    - SMILES and canonical SMILES
+    - InChI and InChIKey
+    - Structure file formats (.SDF, .MOL)
 
 3. Data Curation with RDKit
     - Structure validation
@@ -57,7 +57,7 @@ After completing this module, you will be able to:
 ├── README.md
 ├── scripts/        # Reproducible data retrieval and curation scripts
 ├── notebooks/      # Interactive exploration and demonstrations
-└── data_raw/       # Raw downloaded datasets
+└── data_raw/       # Raw downloaded files and datasets
 ```
 
 ---
