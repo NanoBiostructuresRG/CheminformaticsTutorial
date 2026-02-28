@@ -26,8 +26,8 @@ Pedagogically, it adopts a **project-based learning (PBL)** framework. Learners 
 ### MODULE 1: Data Acquisition & Molecular Representation (Month 1-2)
 *Focus: Establishing the digital foundation of chemical matter.*
 
-* **Chemical Notation:** SMILES, InChI, and structure file formats (.SDF, .MOL).
 * **Programmatic Access:** Automated data retrieval from **PubChem** and **ChEMBL** using Python APIs.
+* **Chemical Notation:** SMILES, InChIKey, and structure file formats (.SDF, .MOL).
 * **Data Curation:** Structural standardization, salt stripping, and tautomer handling with **RDKit**.
 * **Environment Setup:** Configuring VS Code for computational chemistry workflows.
 
@@ -40,7 +40,7 @@ Pedagogically, it adopts a **project-based learning (PBL)** framework. Learners 
 * **Exploratory Data Analysis:** Visualization of property distributions and chemical space using Matplotlib and Seaborn.
 
 
-### MODULE 3: Predictive Modeling & QSAR (Month 4-5)
+### MODULE 3: Predictive Modeling (Month 4-5)
 *Focus: Learning structure–activity relationships through machine learning.*
 
 * **Model Training:** Supervised learning algorithms such as **Logistic Regression** and **Random Forest**.
