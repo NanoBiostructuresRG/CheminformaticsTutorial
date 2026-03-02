@@ -26,15 +26,16 @@ Pedagogically, it adopts a **project-based learning (PBL)** framework. Learners 
 ### MODULE 1: Data Acquisition & Molecular Representation (Month 1-2)
 *Focus: Establishing the digital foundation of chemical matter.*
 
+* **Environment Setup:** Configuration of a reproducible **Google Colab** framework for cheminformatics workflows.
 * **Programmatic Access:** Automated data retrieval from **PubChem** and **ChEMBL** using Python APIs.
 * **Chemical Notation:** SMILES, InChIKey, and structure file formats (.SDF, .MOL).
-* **Data Curation:** Structural standardization, salt stripping, and tautomer handling with **RDKit**.
-* **Environment Setup:** Configuring VS Code for computational chemistry workflows.
+* **Chemical Representation and Visualization:** Conversion of molecular encodings into computational objects and 2D structural depictions for inspection and modeling.
 
 
 ### MODULE 2: Feature Engineering & Exploratory Data Analysis (Month 2-3)
 *Focus: Quantifying and exploring chemical structure.*
 
+* **Data Curation:** Structural standardization, salt stripping, and tautomer handling with **RDKit**.
 * **Molecular Descriptors:** Calculation of key 1D and 2D physicochemical properties (LogP, MW, PSA).
 * **Molecular Fingerprints:** Implementation of ECFP4/Morgan fingerprints for similarity and modeling.
 * **Exploratory Data Analysis:** Visualization of property distributions and chemical space using Matplotlib and Seaborn.
@@ -46,6 +47,7 @@ Pedagogically, it adopts a **project-based learning (PBL)** framework. Learners 
 * **Model Training:** Supervised learning algorithms such as **Logistic Regression** and **Random Forest**.
 * **Model Validation:** Evaluation using ROC-AUC, precision-recall analysis, and cross-validation strategies.
 * **Performance Interpretation:** Feature importance and model behavior analysis.
+* **Environment Setup:** Configuring VS Code for computational chemistry workflows.
 
 
 ### MODULE 4: Virtual Screening & Implementation (Month 6)
