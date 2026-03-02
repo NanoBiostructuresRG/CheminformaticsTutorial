@@ -32,13 +32,13 @@ Pedagogically, it adopts a **project-based learning (PBL)** framework. Learners 
 * **Chemical Representation and Visualization:** Conversion of molecular encodings into computational objects and 2D structural depictions for inspection and modeling.
 
 
-### MODULE 2: Feature Engineering & Exploratory Data Analysis (Month 2-3)
+### MODULE 2: Exploratory Data Analysis & Feature Engineering (Month 2-3)
 *Focus: Quantifying and exploring chemical structure.*
 
 * **Data Curation:** Structural standardization, salt stripping, and tautomer handling with **RDKit**.
-* **Molecular Descriptors:** Calculation of key 1D and 2D physicochemical properties (LogP, MW, PSA).
-* **Molecular Fingerprints:** Implementation of ECFP4/Morgan fingerprints for similarity and modeling.
-* **Exploratory Data Analysis:** Visualization of property distributions and chemical space using Matplotlib and Seaborn.
+* **Exploratory Data Analysis:** Distribution analysis of molecular properties, class balance evaluation, outlier detection, and preliminary chemical space visualization.
+* **Molecular Descriptors:** Calculation of 1D/2D physicochemical properties (LogP, MW, TPSA, HBD, HBA).
+* **Molecular Fingerprints:** Implementation of molecular fingerprints for similarity analysis and machine learning preparation.
 
 
 ### MODULE 3: Predictive Modeling (Month 4-5)
@@ -77,11 +77,11 @@ The purpose of this tutorial is to help you:
 ## Repository Structure
 ```text
 ├── 00_Environment_Setup/       # Installation
-├── 01_Data_Acquisition/        # APIs, SMILES, Data Curation
-├── 02_Feature_Engineering/     # 2D Descriptors & Fingerprints
+├── 01_Data_Acquisition/        # APIs, SMILES 
+├── 02_Feature_Engineering/     # Data Curation, Descriptors & Fingerprints
 ├── 03_Predictive_Modeling/     # Machine Learning & Model Validation
-├── 04_Virtual_Screening/       # Ligand-based screening on large libraries
-└── 05_Reporting/               # Reproducible analysis & technical reports
+├── 04_Virtual_Screening/       # Ligand-based Screening on Large Libraries
+└── 05_Reporting/               # Reproducible Analysis & Technical Reports
 
 ```
 ---
