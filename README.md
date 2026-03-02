@@ -35,10 +35,12 @@ Pedagogically, it adopts a **project-based learning (PBL)** framework. Learners 
 ### MODULE 2: Exploratory Data Analysis & Feature Engineering (Month 2-3)
 *Focus: Quantifying and exploring chemical structure.*
 
-* **Data Curation:** Structural standardization, salt stripping, and tautomer handling with **RDKit**.
-* **Exploratory Data Analysis:** Distribution analysis of molecular properties, class balance evaluation, outlier detection, and preliminary chemical space visualization.
-* **Molecular Descriptors:** Calculation of 1D/2D physicochemical properties (LogP, MW, TPSA, HBD, HBA).
-* **Molecular Fingerprints:** Implementation of molecular fingerprints for similarity analysis and machine learning preparation.
+* **Data Curation:** Structural standardization, salt stripping, tautomer handling, stereochemistry normalization, and duplicate removal using RDKit.
+* **Exploratory Data Analysis (EDA)** 
+    * **Structural EDA (Pre-descriptor):** Duplicate detection, scaffold diversity inspection, molecular weight distribution (basic calculation), atom composition analysis, and class balance evaluation.
+    * **Descriptor-Based EDA (Post-descriptor):** Distribution analysis of calculated properties, correlation assessment (LogP, MW, TPSA, HBD, HBA), outlier detection, PCA-based preliminary chemical space visualization, and property-driven clustering exploration.
+* **Molecular Descriptors:** Calculation of key 1D and 2D physicochemical properties (LogP, MW, TPSA, HBD, HBA, rotatable bonds) and evaluation of descriptor redundancy.
+* **Molecular Fingerprints:** Implementation of molecular fingerprints for similarity analysis, structural diversity assessment, and machine learning preparation.
 
 
 ### MODULE 3: Predictive Modeling (Month 4-5)
@@ -57,7 +59,9 @@ Pedagogically, it adopts a **project-based learning (PBL)** framework. Learners 
 * **Candidate Prioritization:** Probability thresholding and filtering strategies.
 * **Scientific Reporting:** Preparing reproducible reports and technical summaries.
 
+
 ---
+
 
 ## Purpose
 The purpose of this tutorial is to help you:
