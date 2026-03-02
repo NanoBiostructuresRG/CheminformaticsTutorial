@@ -87,18 +87,17 @@ The purpose of this tutorial is to help you:
 ---
 
 ## Requirements
-* **Python 3.10+**
-* **RDKit** (Cheminformatics engine)
-* **Pandas / NumPy** (Data manipulation)
-* **Scikit-Learn** (Machine Learning)
-* **Matplotlib / Seaborn** (Visualization)
-
-* **Anaconda**
-* **environment.yml**
-
-* **VS Code**
+- **Anaconda**
+- **Python 3.10+**
+- **RDKit** (Cheminformatics engine)
+- **Pandas / NumPy** (Data manipulation)
+- **Scikit-Learn** (Machine Learning)
+- **Matplotlib / Seaborn** (Visualization)
+- **environment.yml**
+- **VS Code**
 
 ---
+
 
 ## Author
 Developed by **Flavio F. Contreras-Torres** (Tecnológico de Monterrey)      
