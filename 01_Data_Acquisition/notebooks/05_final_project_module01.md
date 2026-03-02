@@ -61,8 +61,8 @@ Build an initial molecular dataset through REST API queries. Retrieve structural
 Perform at least one structure-driven search (similarity or substructure) using POST requests. Demonstrate technical understanding of GET vs POST communication and document how structural payloads differ from simple textual queries.
 
 ### Phase 3 – ChEMBL Bioactivity Extraction and Refinement  
-Select a biological target (e.g., PPARγ, Mpro, GPCR, enzyme of interest). Retrieve experimental bioactivity data (IC₅₀, Kᵢ, etc.) and standardize all values to nanomolar (nM).  
-Generate a binary classification label using a justified potency threshold (e.g., 1 μM).  
+Select a biological target (e.g., PPARγ, Mpro, GPCR, enzyme of interest). Retrieve experimental bioactivity data (IC₅₀, Kᵢ, etc.) and standardize all values to nanomolar (nM).
+Generate a binary classification label using a justified potency threshold (e.g., 1,000 nM or $pIC_{50} = 6.0$).  
 Export:
 - A cleaned ML-ready CSV dataset  
 - An enriched SDF file embedding structural and bioactivity metadata  
@@ -127,3 +127,7 @@ The following protein targets are strongly associated with obesity, insulin resi
 ### Recommendation
 
 For maximum dataset stability and smoother workflow execution, **DPP-4** and **11β-HSD1** are the most pedagogically robust alternatives.
+
+---
+
+© 2026 Flavio F. Contreras-Torres — MIT License
