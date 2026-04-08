@@ -2,6 +2,7 @@
 **Version 1.0.0 - February, 2026. Monterrey**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 [![Version](https://img.shields.io/badge/version-v1.0-blue.svg)]()
 
@@ -115,5 +116,11 @@ v.1.0.0 - February 2026. Monterrey, Mexico
 ---
 
 ## License
-This project is licensed under the terms of the [MIT License](https://github.com/NanoBiostructuresRG/CheminformaticsTutorial/blob/main/LICENSE).  
-See the LICENSE file for full details.
+The content of this tutorial itself is licensed under the terms and conditions of the [Creative Commons Attribution (CC BY 4.0) license](https://creativecommons.org/licenses/by/4.0/legalcode.en), and the underlying source code used to format and display that content is licensed under the [MIT License](https://github.com/NanoBiostructuresRG/CheminformaticsTutorial/blob/main/LICENSE). See the LICENSE file for full details.
+
+## Attribution
+If you use or adapt this material, please provide appropriate credit to the original authors and repository:
+
+> NanoBiostructures Research Group  
+> GitHub: https://github.com/NanoBiostructuresRG
+
