@@ -84,4 +84,7 @@ All subsequent modeling and screening tasks depend on the structural integrity a
 
 ---
 
-© 2026 Flavio F. Contreras-Torres — MIT License
+## License
+The content of this tutorial itself is licensed under the terms and conditions of the [Creative Commons Attribution (CC BY 4.0) license](https://creativecommons.org/licenses/by/4.0/legalcode.en), and the underlying source code used to format and display that content is licensed under the [MIT License](https://github.com/NanoBiostructuresRG/CheminformaticsTutorial/blob/main/LICENSE). See the LICENSE file for full details.
+
+
