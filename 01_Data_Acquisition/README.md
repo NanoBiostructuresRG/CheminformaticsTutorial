@@ -8,7 +8,7 @@ Establishing the digital foundation of chemical data
 
 ---
 
-# Objective
+## Objective
 
 This module introduces the fundamental concepts required to represent, retrieve, and curate chemical data in a computational workflow.
 
@@ -16,7 +16,7 @@ By the end of this module, you will understand how chemical structures are encod
 
 ---
 
-# Learning Outcomes
+## Learning Outcomes
 
 After completing this module, you will be able to:
 
@@ -29,7 +29,8 @@ After completing this module, you will be able to:
 
 ---
 
-# Core Topics
+## Core Topics
+
 1. Programmatic Data Access
     - Introduction to PubChem REST API
     - Introduction to ChEMBL API
@@ -49,7 +50,7 @@ After completing this module, you will be able to:
 
 ---
 
-# Module Structure
+## Module Structure
 
 ```text
 01_Data_Acquisition/
@@ -62,7 +63,7 @@ After completing this module, you will be able to:
 
 ---
 
-# Expected Output
+## Expected Output
 
 By the end of this module, you should produce:
 
@@ -77,7 +78,7 @@ These datasets will serve as the structural foundation for subsequent modules.
 
 ---
 
-# Conceptual Position in the Workflow
+## Conceptual Position in the Workflow
 
 This module represents the bottom-up starting point of the computational pipeline.
 All subsequent modeling and screening tasks depend on the structural integrity and correctness of the dataset constructed here.
