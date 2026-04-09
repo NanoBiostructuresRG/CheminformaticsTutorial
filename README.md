@@ -104,14 +104,15 @@ The purpose of this tutorial is to help you:
 ---
 
 
-## Author
-Developed by **Flavio F. Contreras-Torres** (Tecnológico de Monterrey)      
-Monterrey, Mexico - February 2026
+## Authors
+**Flavio F. Contreras-Torres**  
+Tecnológico de Monterrey     
+Monterrey, Mexico       
 
 ---
 
 ## Versions     
-v.1.0.0 - February 2026. Monterrey, Mexico
+v.1.0.0 - February 2026
 
 ---
 
