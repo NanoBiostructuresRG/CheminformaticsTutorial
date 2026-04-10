@@ -25,11 +25,12 @@ data/
 *.bat
 
 
-# Resultados y artifacts
+# Resultados, artifacts e imagenes
 artifacts/
 results/
 outputs/
 logs/
+images/
 
 # Configuraciones locales
 config_local.py
