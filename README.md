@@ -98,8 +98,9 @@ The purpose of this tutorial is to help you:
 - **Pandas / NumPy** (Data manipulation)
 - **Scikit-Learn** (Machine Learning)
 - **Matplotlib / Seaborn** (Visualization)
+- **VS Code** (IDE)
+- **MiKTex-XeTeX** (Documentation)
 - **environment.yml**
-- **VS Code**
 
 ---
 

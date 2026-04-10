@@ -24,6 +24,8 @@ data/
 *.synctex.gz
 *.bat
 
+# Figuras
+*.png
 
 # Resultados, imagenes, y artifacts
 artifacts/

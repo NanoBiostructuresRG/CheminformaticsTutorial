@@ -1,5 +1,15 @@
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.51\textwidth]{../../images/logo-tec.png}
+\end{figure}
+
+
 # Final Project – Module 1  
-## From Data Retrieval to a Research-Ready Chemical Library
+### From Data Retrieval to a Research-Ready Chemical Library
+
+**Version 1.0.0 - February, 2026. Monterrey**  
+**Author:** Flavio F. Contreras-Torres. Tecnológico de Monterrey.
 
 
 --- 
@@ -10,7 +20,7 @@ This final project integrates the four notebooks developed throughout Module 1 i
 
 You will assume the role of a Computational Chemist responsible for delivering a scientifically reliable dataset for a defined biological target. The emphasis is not only on technical execution, but on understanding how data acquisition, curation, structural inspection, and physicochemical reasoning converge to produce research-grade chemical knowledge.
 
----
+
 
 ### Project Estimation & Effort Breakdown
 
@@ -24,11 +34,12 @@ You will assume the role of a Computational Chemist responsible for delivering a
 
 > **Notice:** This project is designed to be completed in approximately **10 - 15 hours**.
 
----
+
 
 ### **Student Checklist for Success**
 
 To ensure you complete the project within this timeframe, consider the following:
+
 * **Start Simple:** Choose a well-studied target (e.g., Acetylcholinesterase, EGFR, or Mpro) to ensure plenty of data is available.
 * **Reusable Code:** Leverage the functions and logic you built in Notebooks 1 through 4.
 * **The 80/20 Rule:** Focus on getting a clean, functional dataset first; you can refine the visual styling of your plots later.
@@ -39,7 +50,7 @@ To ensure you complete the project within this timeframe, consider the following
 
 **How can raw molecular data retrieved from public databases be systematically transformed into a reliable, balanced, and modeling-ready chemical library for a specific biological target?**
 
----
+
 
 ## Project Objectives
 
@@ -50,7 +61,7 @@ To ensure you complete the project within this timeframe, consider the following
 5. **Structural & Physicochemical Audit:** Evaluate dataset quality through statistical profiling and molecular visualization.
 6. **Preliminary SAR Analysis:** Identify qualitative structure–activity trends and scaffold-level patterns.
 
----
+
 
 ## Project Workflow
 
@@ -64,7 +75,8 @@ Perform at least one structure-driven search (similarity or substructure) using 
 Select a biological target (e.g., PPARγ, Mpro, GPCR, enzyme of interest). Retrieve experimental bioactivity data (IC₅₀, Kᵢ, etc.) and standardize all values to nanomolar (nM).
 Generate a binary classification label using a justified potency threshold (e.g., 1,000 nM or $pIC_{50} = 6.0$).  
 Export:
-- A cleaned ML-ready CSV dataset  
+
+- A cleaned ML-ready CSV dataset
 - An enriched SDF file embedding structural and bioactivity metadata  
 
 ### Phase 4 – Visual Analytics and Structural Audit  
@@ -76,7 +88,7 @@ Perform a scientific validation of the curated dataset through:
 
 Interpret at least three qualitative SAR observations linking molecular architecture to observed potency trends.
 
----
+
 
 ## Required Deliverables
 
@@ -93,7 +105,7 @@ Interpret at least three qualitative SAR observations linking molecular architec
    - One physicochemical comparison plot
    - Structural grid visualization
 
----
+
 
 ## Evaluation Criteria
 
@@ -102,13 +114,13 @@ Interpret at least three qualitative SAR observations linking molecular architec
 - **Scientific Reasoning:** Ability to connect structural motifs with physicochemical properties and potency.
 - **Technical Clarity:** Clean code, labeled figures, and concise scientific interpretation.
 
----
+
 
 ## Expected Outcome
 
 By the end of this project, you will have constructed a curated and chemically interpretable dataset derived entirely through reproducible computational methods. This library will serve as the digital foundation for Module 2: Feature Engineering and Chemical Space Modeling, where molecular representations transition from structural form to quantitative descriptors and predictive learning.
 
----
+
 
 ## Recommended Friendly Targets – Metabolic Disorders Context
 
@@ -122,7 +134,7 @@ The following protein targets are strongly associated with obesity, insulin resi
 | **ACC1 (Acetyl-CoA Carboxylase 1)** | Key enzyme in fatty acid biosynthesis; implicated in lipid accumulation and obesity. | Enzyme target with measurable IC₅₀ values; useful for metabolic pathway discussion and structure–function reasoning. |
 | **FASN (Fatty Acid Synthase)** | Catalyzes de novo lipogenesis; overactive in obesity and metabolic dysregulation. | Abundant inhibitor data; clear biochemical endpoint; suitable for potency standardization and physicochemical profiling exercises. |
 
----
+
 
 ### Recommendation
 
@@ -130,4 +142,9 @@ For maximum dataset stability and smoother workflow execution, **DPP-4** and **1
 
 ---
 
-© 2026 Flavio F. Contreras-Torres — MIT License
+### License  
+The content of this tutorial itself is licensed under the terms and conditions of the [Creative Commons Attribution (CC BY 4.0) license](https://creativecommons.org/licenses/by/4.0/legalcode.en), and the underlying source code used to format and display that content is licensed under the [MIT license](https://github.com/NanoBiostructuresRG/NumpyTutorial/blob/main/LICENSE). See the LICENSE files for full details.
+
+### Attribution
+If you use or adapt this material, please provide appropriate credit to the original authors and repository:
+[https://github.com/NanoBiostructuresRG](https://github.com/NanoBiostructuresRG)
