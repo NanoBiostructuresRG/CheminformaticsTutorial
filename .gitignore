@@ -25,7 +25,7 @@ data/
 *.bat
 
 
-# Resultados, artifacts e imagenes
+# Resultados, imagenes, y artifacts
 artifacts/
 results/
 outputs/
