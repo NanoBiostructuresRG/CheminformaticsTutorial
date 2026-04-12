@@ -18,7 +18,7 @@ Before working with molecular data, we must first establish a stable and standar
 
 # Primary Working Environment
 
-For Modules 1 and 2, JupyterLab will be the main interactive environment.
+For Modules 1 and 2, Google Colab and JupyterLab will be the main interactive environments.
 It allows direct inspection of chemical datasets, visualization of molecular structures, and exploratory data analysis in a clear and intuitive way.
 
 As the course progresses, scripts will complement notebooks to ensure reproducibility and automation.
