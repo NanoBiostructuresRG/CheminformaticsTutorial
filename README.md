@@ -24,10 +24,15 @@ Pedagogically, it adopts a **project-based learning (PBL)** framework. Learners 
 
 ## Curriculum Overview
 
-### MODULE 1: Data Acquisition & Molecular Representation (Month 1-2)
+### MODULE 0: Environment Setup
+*Focus: Preparing a reproducible computational environment for cheminformatics workflows.*
+
+* **Installation:** Setup of reproducible cheminformatics workflows in **Google Colab**, **Anaconda**, and **VS Code**.
+
+
+### MODULE 1: Molecular Data Acquisition and Representation (Month 1-2)
 *Focus: Establishing the digital foundation of chemical matter.*
 
-* **Environment Setup:** Configuration of a reproducible **Google Colab** framework for cheminformatics workflows.
 * **Programmatic Access:** Automated data retrieval from **PubChem** and **ChEMBL** using Python APIs.
 * **Chemical Notation:** SMILES, InChIKey, and structure file formats (.SDF, .MOL).
 * **Chemical Representation and Visualization:** Conversion of molecular encodings into computational objects and 2D structural depictions for inspection and modeling.
@@ -50,7 +55,6 @@ Pedagogically, it adopts a **project-based learning (PBL)** framework. Learners 
 * **Model Training:** Supervised learning algorithms such as **Logistic Regression** and **Random Forest**.
 * **Model Validation:** Evaluation using ROC-AUC, precision-recall analysis, and cross-validation strategies.
 * **Performance Interpretation:** Feature importance and model behavior analysis.
-* **Environment Setup:** Configuring VS Code for computational chemistry workflows.
 
 
 ### MODULE 4: Virtual Screening & Implementation (Month 6)

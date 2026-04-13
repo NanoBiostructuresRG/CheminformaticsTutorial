@@ -1,15 +1,9 @@
+# CIT.M1 – Molecular Data Acquisition and Representation
+### Final Project. From Data Retrieval to a Research-Ready Chemical Library
 
-\begin{figure}[h]
-\centering
-\includegraphics[width=0.51\textwidth]{../../images/logo-tec.png}
-\end{figure}
-
-
-# Final Project – Module 1  
-### From Data Retrieval to a Research-Ready Chemical Library
-
-**Version 1.0.0 - February, 2026. Monterrey**  
-**Author:** Flavio F. Contreras-Torres. Tecnológico de Monterrey.
+**Version 1.0.0 - February, 2026. Monterrey** 
+ 
+**Author:** [Flavio F. Contreras-Torres](https://orcid.org/my-orcid?orcid=0000-0003-2375-131X). Tecnológico de Monterrey.
 
 
 --- 
@@ -146,5 +140,5 @@ For maximum dataset stability and smoother workflow execution, **DPP-4** and **1
 The content of this tutorial itself is licensed under the terms and conditions of the [Creative Commons Attribution (CC BY 4.0) license](https://creativecommons.org/licenses/by/4.0/legalcode.en), and the underlying source code used to format and display that content is licensed under the [MIT license](https://github.com/NanoBiostructuresRG/NumpyTutorial/blob/main/LICENSE). See the LICENSE files for full details.
 
 ### Attribution
-If you use or adapt this material, please provide appropriate credit to the original authors and repository:
+If you use or adapt this material, please provide appropriate credit to the original [authors](https://orcid.org/my-orcid?orcid=0000-0003-2375-131X) and repository:
 [https://github.com/NanoBiostructuresRG](https://github.com/NanoBiostructuresRG)
