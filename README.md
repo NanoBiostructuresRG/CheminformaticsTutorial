@@ -27,42 +27,54 @@ Pedagogically, it adopts a **project-based learning (PBL)** framework. Learners 
 ### MODULE 0: Environment Setup
 *Focus: Preparing a reproducible computational environment for cheminformatics workflows.*
 
-* **Installation:** Setup of reproducible cheminformatics workflows in **Google Colab**, **Anaconda**, and **VS Code**.
+* **Platform Setup:** Configuration of a reproducible working environment using **Google Colab**, **Anaconda**, and **VS Code**.
 
 
-### MODULE 1: Molecular Data Acquisition and Representation (Month 1-2)
+### MODULE 1: Molecular Data Acquisition and Representation (Month 1)
 *Focus: Establishing the digital foundation of chemical matter.*
 
 * **Programmatic Access:** Automated data retrieval from **PubChem** and **ChEMBL** using Python APIs.
-* **Chemical Notation:** SMILES, InChIKey, and structure file formats (.SDF, .MOL).
-* **Chemical Representation and Visualization:** Conversion of molecular encodings into computational objects and 2D structural depictions for inspection and modeling.
+* **Chemical Notation:** Introduction to SMILES, InChI, InChIKey, and common structure file formats sucha as SDF and MOL.
+* **Molecular Representation:** Conversion of chemical encodings into computational molecular objects for downstream analysis.
+* **Chemical Visualization:** Generation of 2D molecular depictions for structural inspection and interpretation.
 
 
-### MODULE 2: Exploratory Data Analysis & Feature Engineering (Month 2-3)
-*Focus: Quantifying and exploring chemical structure.*
+### MODULE 2: Data Curation & Structural Exploration (Month 2)
+*Focus: Preparing chemically consistent datasets for analysis and modeling.*
 
 * **Data Curation:** Structural standardization, salt stripping, tautomer handling, stereochemistry normalization, and duplicate removal using RDKit.
-* **Exploratory Data Analysis (EDA)** 
-    * **Structural EDA (Pre-descriptor):** Duplicate detection, scaffold diversity inspection, molecular weight distribution (basic calculation), atom composition analysis, and class balance evaluation.
-    * **Descriptor-Based EDA (Post-descriptor):** Distribution analysis of calculated properties, correlation assessment (LogP, MW, TPSA, HBD, HBA), outlier detection, PCA-based preliminary chemical space visualization, and property-driven clustering exploration.
-* **Molecular Descriptors:** Calculation of key 1D and 2D physicochemical properties (LogP, MW, TPSA, HBD, HBA, rotatable bonds) and evaluation of descriptor redundancy.
-* **Molecular Fingerprints:** Implementation of molecular fingerprints for similarity analysis, structural diversity assessment, and machine learning preparation.
+* **Structure-level EDA:** Inspection of duplicate entries, scaffold diversity, atom composition, molecular size trends, and class balance.
+* **Chemical Quality Control:** Identification of inconsistent structures, missing values, and dataset-level issues that may affect downstream analysis.
+* **Preliminary Chemical Space Inspection:** Early visualization of structural diversity and dataset composition prior to descriptor generation.
 
 
-### MODULE 3: Predictive Modeling (Month 4-5)
+### MODULE 3: Molecular Descriptors, Fingerprints & Feature Engineering (Months 3)
+*Focus: Transforming chemical structures into machine-readable features.*
+
+* **Molecular Descriptors:** Calculation of key 1D and 2D physicochemical properties, including molecular weight (MW), LogP, TPSA, HBD, HBA, and rotatable bonds.
+* **Descriptor-Based EDA:** Distribution analysis of calculated properties, correlation assessment, outlier detection, and redundancy evaluation.
+* **Molecular Fingerprints:** Generation of structural fingerprints for similarity analysis, diversity assessment, and machine learning applications.
+* **Feature Engineering:** Preparation and organization of descriptor matrices and fingerprint-based representations for predictive modeling.
+* **Chemical Space Visualization:** Use of methods such as PCA for preliminary visualization of descriptor-based chemical space.
+
+
+### MODULE 4: Predictive Modeling (Month 4)
 *Focus: Learning structure–activity relationships through machine learning.*
 
-* **Model Training:** Supervised learning algorithms such as **Logistic Regression** and **Random Forest**.
+* **Model Inputs:** Use of molecular descriptors and fingerprint matrices as representations for classification tasks.
+* **Model Training:** Supervised learning algorithms such as **Logistic Regression** and **Random Forest** for bioactivity prediction.
 * **Model Validation:** Evaluation using ROC-AUC, precision-recall analysis, and cross-validation strategies.
-* **Performance Interpretation:** Feature importance and model behavior analysis.
+* **Performance Interpretation:** Analysis of model behavior, feature importance, and predictive limitations.
+* **Structure–Activity Learning:** Introduction to computational strategies for relating molecular features to biological activity outcomes.
 
 
-### MODULE 4: Virtual Screening & Implementation (Month 6)
+### MODULE 5: Virtual Screening & Scientific Implementation (Month 6)
 *Focus: Applying predictive models to prioritize candidate compounds.*
 
-* **Ligand-Based Virtual Screening:** Applying trained models to large chemical libraries (e.g., COCONUT or ChEMBL subsets).
-* **Candidate Prioritization:** Probability thresholding and filtering strategies.
-* **Scientific Reporting:** Preparing reproducible reports and technical summaries.
+* **Ligand-Based Virtual Screening:** Application of trained models to large chemical libraries such as COCONUT or selected ChEMBL subsets.
+* **Candidate Prioritization:** Probability thresholding, ranking, and filtering strategies for hit selection.
+* **Result Interpretation:** Evaluation of screened compounds in terms of confidence, diversity, and practical relevance.
+* **Scientific Reporting:** Preparation of technical summaries, screening reports, and structured outputs for scientific communication.
 
 
 ---
@@ -86,11 +98,12 @@ The purpose of this tutorial is to help you:
 ## Repository Structure
 ```text
 ├── 00_Environment_Setup/       # Installation
-├── 01_Data_Acquisition/        # APIs, SMILES 
-├── 02_Feature_Engineering/     # Data Curation, Descriptors & Fingerprints
-├── 03_Predictive_Modeling/     # Machine Learning & Model Validation
-├── 04_Virtual_Screening/       # Ligand-based Screening on Large Libraries
-└── 05_Reporting/               # Reproducible Analysis & Technical Reports
+├── 01_Data_Acquisition/        # APIs, SMILES, InCHI, SDF/MOL 
+├── 02_Data_Curation/           # Data Curation, structural EDA
+├── 03_Feature_Engineering/     # Fingerprints, descriptor-based EDA
+├── 04_Predictive_Modeling/     # Machine Learning, validation, prediction
+├── 05_Virtual_Screening/       # Ligand-based screening, identification, priorization
+└── 06_Reporting/               # Technical reports
 
 ```
 ---
@@ -108,11 +121,10 @@ The purpose of this tutorial is to help you:
 
 ---
 
+**Author:** [Flavio F. Contreras-Torres](https://orcid.org/my-orcid?orcid=0000-0003-2375-131X). 
+Tecnológico de Monterrey.     
+Monterrey, Mexico
 
-## Authors
-**Flavio F. Contreras-Torres**  
-Tecnológico de Monterrey     
-Monterrey, Mexico       
 
 ---
 
@@ -124,9 +136,8 @@ v.1.0.0 - February 2026
 ## License
 The content of this tutorial itself is licensed under the terms and conditions of the [Creative Commons Attribution (CC BY 4.0) license](https://creativecommons.org/licenses/by/4.0/legalcode.en), and the underlying source code used to format and display that content is licensed under the [MIT License](https://github.com/NanoBiostructuresRG/CheminformaticsTutorial/blob/main/LICENSE). See the LICENSE file for full details.
 
-## Attribution
-If you use or adapt this material, please provide appropriate credit to the original authors and repository:
+### Attribution
+If you use or adapt this material, please provide appropriate credit to the original [authors](https://orcid.org/my-orcid?orcid=0000-0003-2375-131X) and repository:
+[https://github.com/NanoBiostructuresRG](https://github.com/NanoBiostructuresRG)
 
-> NanoBiostructures Research Group  
-> GitHub: https://github.com/NanoBiostructuresRG
 
