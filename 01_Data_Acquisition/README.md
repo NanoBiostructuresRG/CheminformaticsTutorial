@@ -1,18 +1,29 @@
-# Module 1: Data Acquisition & Molecular Representation
+# Module 1: Molecular Data Acquisition and Representation
 
 ### Timeline: 
-Month 1
+Month 1  (17 - 26 hours)
 
 ### Focus: 
-Establishing the digital foundation of chemical data
+Establishing the digital foundation of chemical data through retrieval, organization, and molecular representation.
+
+---
+
+## Contents
+
+Four notebooks:
+
+1. **PubChem Data Retrieval**. Introduction to programmatic chemical data acquisition using the PubChem REST API.
+2. **PUG-REST POST Requests**. Structure-based querying with SMILES strings and SDF inputs, including flexible and complex PubChem requests.
+3. **ChEMBL Data Retrieval**. Retrieval of target-centered bioactivity data, including molecules, activities, assays, and biological targets.
+4. **Molecular Representation and Visualization**. Conversion of encoded molecular records into computational objects and 2D structural depictions for direct chemical interpretation.
 
 ---
 
 ## Objective
 
-This module introduces the fundamental concepts required to represent, retrieve, and curate chemical data in a computational workflow.
+This module introduces the fundamental concepts required to **retrieve, organize, and represent chemical data** in a computational workflow.
 
-By the end of this module, you will understand how chemical structures are encoded digitally and how to construct a clean, analysis-ready molecular dataset from public chemical databases.
+By the end of this module, you will understand how chemical structures are encoded digitally, how molecular information can be retrieved from public databases, and how structured molecular records can be transformed into visually interpretable chemical representations.
 
 ---
 
@@ -21,11 +32,12 @@ By the end of this module, you will understand how chemical structures are encod
 After completing this module, you will be able to:
 
 - Retrieve chemical data programmatically from **PubChem** and **ChEMBL**.
+- Perform structure-based queries using PubChem PUG-REST POST requests.
 - Interpret and manipulate molecular representations (`SMILES`, `InChIKey`).
 - Work with common structure file formats (`.SDF`, `.MOL`).
-- Compare structural and metadata differences between databases.
-- Apply structural standardization techniques using **RDKit**.
-- Generate a curated dataset ready for feature engineering.
+- Compare structural and metadata differences between public chemical databases.
+- Connect target, assay, activity, and molecular records into structured datasets.
+- Render 2D molecular structures from encoded chemical representations.
 
 ---
 
@@ -35,18 +47,17 @@ After completing this module, you will be able to:
     - Introduction to PubChem REST API
     - Introduction to ChEMBL API
     - Data parsing and format differences
+    - Structure-based queries with POST requests
 
 2. Chemical Notation
     - SMILES and canonical SMILES
     - InChI and InChIKey
     - Structure file formats (.SDF, .MOL)
 
-3. Data Curation with RDKit
-    - Structure validation
-    - Salt removal
-    - Standardization
-    - Tautomer handling
-    - Removing duplicates
+3. Molecular Representation and Visualization
+    - Converting encoded records into molecular objects
+    - Rendering 2D molecular depictions
+    - Structural inspection of retrieved compounds
 
 ---
 
@@ -68,20 +79,19 @@ After completing this module, you will be able to:
 By the end of this module, you should produce:
 
 - A raw dataset retrieved from PubCHem
-- A raw dataset retrieved from ChEMBL
-- A curated molecular dataset (e.g., `curated_dataset.csv`)
-    - Standardized SMILES representations
-    - Clean molecular identifiers
-    - Remotion of duplicates, salts, etc. 
+- At least one structure-based query workflow using POST requests
+- A structured ChEMBL bioactivity dataset
+- A set of representative 2D molecular visualizations
+- An enriched structural file such as .SDF
 
-These datasets will serve as the structural foundation for subsequent modules.
+
+These outputs will serve as the foundation for Module 2: Data Curation and Structural Exploration.
 
 ---
 
 ## Conceptual Position in the Workflow
 
-This module represents the bottom-up starting point of the computational pipeline.
-All subsequent modeling and screening tasks depend on the structural integrity and correctness of the dataset constructed here.
+This module represents the entry point of the computational pipeline. It establishes the molecular records, identifiers, and structural representations that will later be curated, explored, and analyzed in downstream modules.
 
 ---
 
