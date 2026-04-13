@@ -58,7 +58,7 @@ Pedagogically, it adopts a **project-based learning (PBL)** framework. Learners 
 * **Chemical Space Visualization:** Use of methods such as PCA for preliminary visualization of descriptor-based chemical space.
 
 
-### MODULE 4: Predictive Modeling (Month 4)
+### MODULE 4: Predictive Modeling (Month 4-5)
 *Focus: Learning structure–activity relationships through machine learning.*
 
 * **Model Inputs:** Use of molecular descriptors and fingerprint matrices as representations for classification tasks.
@@ -68,7 +68,7 @@ Pedagogically, it adopts a **project-based learning (PBL)** framework. Learners 
 * **Structure–Activity Learning:** Introduction to computational strategies for relating molecular features to biological activity outcomes.
 
 
-### MODULE 5: Virtual Screening & Scientific Implementation (Month 6)
+### MODULE 5: Virtual Screening & Scientific Implementation (Month 5-6)
 *Focus: Applying predictive models to prioritize candidate compounds.*
 
 * **Ligand-Based Virtual Screening:** Application of trained models to large chemical libraries such as COCONUT or selected ChEMBL subsets.
