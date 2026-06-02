@@ -4,7 +4,7 @@ layout: default
 ---
 
 <!--This line is commented-->
-<img src="../assets/cheminfo_logo.svg" alt="logo" style="float: right; width: 160px; margin-left: 20px;">
+<img src="assets/cheminfo_logo.svg" alt="logo" style="float: right; width: 160px; margin-left: 20px;">
 
 
 ## Cheminformatics Tutorial
