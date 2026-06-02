@@ -1,5 +1,5 @@
 # Cheminformatics Tutorial
-**Version 1.0.0 - February, 2026. Monterrey**
+**Version 1.0 - June, 2026. Monterrey**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
@@ -27,10 +27,10 @@ Pedagogically, it adopts a **project-based learning (PBL)** framework. Learners 
 ### MODULE 0: Environment Setup
 *Focus: Preparing a reproducible computational environment for cheminformatics workflows.*
 
-* **Platform Setup:** Configuration of a reproducible working environment using **Google Colab**, **Anaconda**, and **VS Code**.
+* **Platform Setup:** Configuration of a reproducible working environment using **Google Colab**, **Jupyter**, **Anaconda**, and **VS Code**.
 
 
-### MODULE 1: Molecular Data Acquisition and Representation (Month 1)
+### MODULE 1: Molecular Data Acquisition and Representation
 *Focus: Establishing the digital foundation of chemical matter.*
 
 * **Programmatic Access:** Automated data retrieval from **PubChem** and **ChEMBL** using Python APIs.
@@ -39,7 +39,7 @@ Pedagogically, it adopts a **project-based learning (PBL)** framework. Learners 
 * **Chemical Visualization:** Generation of 2D molecular depictions for structural inspection and interpretation.
 
 
-### MODULE 2: Data Curation & Structural Exploration (Month 2)
+### MODULE 2: Data Curation & Structural Exploration
 *Focus: Preparing chemically consistent datasets for analysis and modeling.*
 
 * **Data Curation:** Structural standardization, salt stripping, tautomer handling, stereochemistry normalization, and duplicate removal using RDKit.
@@ -48,7 +48,7 @@ Pedagogically, it adopts a **project-based learning (PBL)** framework. Learners 
 * **Preliminary Chemical Space Inspection:** Early visualization of structural diversity and dataset composition prior to descriptor generation.
 
 
-### MODULE 3: Molecular Descriptors, Fingerprints & Feature Engineering (Months 3)
+### MODULE 3: Molecular Descriptors, Fingerprints & Feature Engineering
 *Focus: Transforming chemical structures into machine-readable features.*
 
 * **Molecular Descriptors:** Calculation of key 1D and 2D physicochemical properties, including molecular weight (MW), LogP, TPSA, HBD, HBA, and rotatable bonds.
@@ -58,7 +58,7 @@ Pedagogically, it adopts a **project-based learning (PBL)** framework. Learners 
 * **Chemical Space Visualization:** Use of methods such as PCA for preliminary visualization of descriptor-based chemical space.
 
 
-### MODULE 4: Predictive Modeling (Month 4-5)
+### MODULE 4: Predictive Modeling
 *Focus: Learning structure–activity relationships through machine learning.*
 
 * **Model Inputs:** Use of molecular descriptors and fingerprint matrices as representations for classification tasks.
@@ -68,7 +68,7 @@ Pedagogically, it adopts a **project-based learning (PBL)** framework. Learners 
 * **Structure–Activity Learning:** Introduction to computational strategies for relating molecular features to biological activity outcomes.
 
 
-### MODULE 5: Virtual Screening & Scientific Implementation (Month 5-6)
+### MODULE 5: Virtual Screening & Scientific Implementation
 *Focus: Applying predictive models to prioritize candidate compounds.*
 
 * **Ligand-Based Virtual Screening:** Application of trained models to large chemical libraries such as COCONUT or selected ChEMBL subsets.
@@ -129,7 +129,7 @@ Monterrey, Mexico
 ---
 
 ## Versions     
-v.1.0.0 - February 2026
+v.1.0 - June 2026
 
 ---
 

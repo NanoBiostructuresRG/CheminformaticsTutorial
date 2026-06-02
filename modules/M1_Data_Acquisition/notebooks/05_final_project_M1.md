@@ -1,7 +1,7 @@
-# CIT.M1 – Molecular Data Acquisition and Representation
+# CHT.M1 – Molecular Data Acquisition and Representation
 ### Final Project. From Data Retrieval to a Structured Chemical Library
 
-**Version 1.0.0 - February, 2026. Monterrey** 
+**Version 1.0 - June, 2026. Monterrey** 
  
 **Author:** [Flavio F. Contreras-Torres](https://orcid.org/my-orcid?orcid=0000-0003-2375-131X). Tecnológico de Monterrey.
 

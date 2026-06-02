@@ -45,3 +45,6 @@ Thumbs.db
 # IDEs / editores
 .vscode/
 .idea/
+
+# temporary files
+05xxxx_final_project_M1.md
