@@ -1,5 +1,5 @@
 ---
-title: AutoDock Tutorial
+title: Cheminformatics Tutorial
 layout: default
 ---
 
@@ -42,7 +42,7 @@ This tutorial provides a structured introduction to **Cheminformatics**, with em
 ---
 
 ### Downloads
-- **[Tutorial PDF](https://nanobiostructuresrg.github.io/AutodockTutorial/tutorial/AutodockTutorial.pdf)**. This is the most up-to-date version of the tutorial and may continue to receive minor revisions, including the correction of typographical errors and other small improvements.
+- **[Tutorial PDF](https://nanobiostructuresrg.github.io/CheminformaticsTutorial/tutorial/CheminformaticsTutorial.pdf)**. This is the most up-to-date version of the tutorial and may continue to receive minor revisions, including the correction of typographical errors and other small improvements.
 
 
 ### Assessment Notebooks
