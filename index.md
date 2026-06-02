@@ -49,7 +49,11 @@ This tutorial provides a structured introduction to **Cheminformatics**, with em
 
 To complete the training and obtain credit, participants are required to engage with the tutorial materials in the prescribed sequence and to complete the two mandatory assessment notebooks:
 
-- **[Computational Environments](https://nbviewer.org/github/NanoBiostructuresRG/CheminformaticsTutorial/blob/main/modules/M0_Environment_Setup/notebooks/00_installation.ipynb)**
+- **[Computational Workspace](https://nbviewer.org/github/NanoBiostructuresRG/CheminformaticsTutorial/blob/main/modules/M0_Environment_Setup/notebooks/00_installation.ipynb)**
+- **[Pubchem Data Retrieval](https://nbviewer.org/github/NanoBiostructuresRG/CheminformaticsTutorial/blob/main/modules/M1_Data_Acquisition/notebooks/01_pubchem_data_retrieval.ipynb)**
+- **[PUG-REST and HTTP-POST Requests](https://nbviewer.org/github/NanoBiostructuresRG/CheminformaticsTutorial/blob/main/modules/M1_Data_Acquisition/notebooks/02_pugrest_post_requests.ipynb)**
+- **[ChEMBL Data Retrieval](https://nbviewer.org/github/NanoBiostructuresRG/CheminformaticsTutorial/blob/main/modules/M1_Data_Acquisition/notebooks/03_chembl_data_retrieval.ipynb)**
+- **[Molecular Representation & Visualization](https://nbviewer.org/github/NanoBiostructuresRG/CheminformaticsTutorial/blob/main/modules/M1_Data_Acquisition/notebooks/04_molecular_representation_visualization.ipynb)**
 
 
 
