@@ -26,7 +26,7 @@ This tutorial provides a structured introduction to **Cheminformatics**, with em
 2. Structure-level EDA 
 3. Chemical Quality Control    
 4. Preliminary Chemical Space Inspection
-5. [End-of-Module 1](https://nanobiostructuresrg.github.io/CheminformaticsTutorial/modules/end-of-modules/m1_final_project.md)
+5. [End-of-Module 1](https://nanobiostructuresrg.github.io/CheminformaticsTutorial/modules/end-of-modules/m1_final_project.pdf)
 
 #### Module 2: Data Curation & Structural Exploration
 
