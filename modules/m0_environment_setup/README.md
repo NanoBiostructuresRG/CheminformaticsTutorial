@@ -72,16 +72,16 @@ These extensions enable notebook execution and Python environment management.
 From the root directory of this repository, run:
 
 ```bash
-conda env create -f 00_Environment_Setup/environment.yml
+conda env create -f m0_environment_setup/environment.yml
 ```
 
 Once the installation completes, activate the environment:
 
 ```bash
-conda activate cheminf_tutorial
+conda activate cheminftrial_env
 ```
 
-You should now see `(cheminf_tutorial)` at the beginning of your terminal line.
+You should now see `(cheminftrial_env)` at the beginning of your terminal line.
 
 ---
 
@@ -90,7 +90,7 @@ You should now see `(cheminf_tutorial)` at the beginning of your terminal line.
 - Open the repository folder in VS Code
 - Press `Ctrl + Shift + P`
 - Select: Python: **Select Interpreter**
-- Choose `cheminf_tutorial`
+- Choose `cheminftrial_env`
 
 ---
 
@@ -98,7 +98,7 @@ You should now see `(cheminf_tutorial)` at the beginning of your terminal line.
 ### Step 5 — Register the Environment in Jupyter (Optional but Recommended)
 
 ```bash
-python -m ipykernel install --user --name cheminf_tutorial --display-name "Python (cheminf_tutorial)"
+python -m ipykernel install --user --name cheminftrial_env --display-name "Python (cheminftrial_env)"
 ```
 
 This allows you to select the environment inside Jupyter notebooks.
