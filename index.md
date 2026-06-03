@@ -9,7 +9,7 @@ layout: default
 
 ## Cheminformatics Tutorial
 
-This tutorial provides a structured introduction to **Cheminformatics**, with emphasis on the theoretical and practical principles underlying ligand–receptor binding analysis. It guides users through the preparation of molecular input files, definition of docking parameters, execution of docking simulations, and interpretation of predicted binding modes and affinity estimates. The tutorial is intended as a pedagogical resource for the development of foundational competencies in docking-based computational analysis. For a more comprehensive treatment of the subject, readers are encouraged to consult specialized literature and additional online resources.
+This tutorial provides a structured introduction to **Cheminformatics**, with emphasis on the theoretical and practical principles underlying ligand–receptor binding analysis. It guides users through the preparation of molecular input files, definition of docking parameters, execution of docking simulations, and interpretation of predicted binding modes and affinity estimates. The tutorial is intended as a pedagogical resource for the development of foundational competencies in docking-based computational analysis. For a more comprehensive treatment of the subject, readers are encouraged to consult specialized literature and additional online resources. Participants will complete a project at the end of each module to demonstrate their understanding of the core concepts and their ability to apply the skills developed during the training.
 
 
 ---
@@ -25,7 +25,9 @@ This tutorial provides a structured introduction to **Cheminformatics**, with em
 1. Data Curation
 2. Structure-level EDA 
 3. Chemical Quality Control    
-4. Preliminary Chemical Space Inspection   
+4. Preliminary Chemical Space Inspection
+5. [End-of-Module 1](https://nbviewer.org/github/NanoBiostructuresRG/CheminformaticsTutorial/blob/main/modules/end-of-modules/m1_final_project.pdf)**
+
 
 #### Module 2: Data Curation & Structural Exploration
 
@@ -47,20 +49,14 @@ This tutorial provides a structured introduction to **Cheminformatics**, with em
 
 ### Assessment Notebooks
 
-To complete the training and obtain credit, participants are required to engage with the tutorial materials in the prescribed sequence and to complete the two mandatory assessment notebooks:
+To complete the training and obtain credit, participants are required to engage with the tutorial materials in the prescribed sequence and to complete mandatory assessment notebooks:
 
-- **[Computational Workspace](https://nbviewer.org/github/NanoBiostructuresRG/CheminformaticsTutorial/blob/main/modules/M0_Environment_Setup/notebooks/00_installation.ipynb)**
-- **[Pubchem Data Retrieval](https://nbviewer.org/github/NanoBiostructuresRG/CheminformaticsTutorial/blob/main/modules/M1_Data_Acquisition/notebooks/01_pubchem_data_retrieval.ipynb)**
-- **[PUG-REST and HTTP-POST Requests](https://nbviewer.org/github/NanoBiostructuresRG/CheminformaticsTutorial/blob/main/modules/M1_Data_Acquisition/notebooks/02_pugrest_post_requests.ipynb)**
-- **[ChEMBL Data Retrieval](https://nbviewer.org/github/NanoBiostructuresRG/CheminformaticsTutorial/blob/main/modules/M1_Data_Acquisition/notebooks/03_chembl_data_retrieval.ipynb)**
-- **[Molecular Representation & Visualization](https://nbviewer.org/github/NanoBiostructuresRG/CheminformaticsTutorial/blob/main/modules/M1_Data_Acquisition/notebooks/04_molecular_representation.ipynb)**
+- **[Computational Workspace](https://nbviewer.org/github/NanoBiostructuresRG/CheminformaticsTutorial/blob/main/modules/m0_environment_setup/notebooks/00_installation.ipynb)**
+- **[Pubchem Data Retrieval](https://nbviewer.org/github/NanoBiostructuresRG/CheminformaticsTutorial/blob/main/modules/m1_data_acquisition/notebooks/01_pubchem_data_retrieval.ipynb)**
+- **[PUG-REST and HTTP-POST Requests](https://nbviewer.org/github/NanoBiostructuresRG/CheminformaticsTutorial/blob/main/modules/m1_data_acquisition/notebooks/02_pugrest_post_requests.ipynb)**
+- **[ChEMBL Data Retrieval](https://nbviewer.org/github/NanoBiostructuresRG/CheminformaticsTutorial/blob/main/modules/m1_data_acquisition/notebooks/03_chembl_data_retrieval.ipynb)**
+- **[Molecular Representation & Visualization](https://nbviewer.org/github/NanoBiostructuresRG/CheminformaticsTutorial/blob/main/modules/m1_data_acquisition/notebooks/04_molecular_representation.ipynb)**
 
-
-### End-of-Module Projects
-
-Participants will complete a project at the end of each module to demonstrate their understanding of the core concepts and their ability to apply the skills developed during the training.
-
-- **[Module 1](https://nbviewer.org/github/NanoBiostructuresRG/CheminformaticsTutorial/blob/main/modules/M1_Data_Acquisition/notebooks/05_final_project_M1.pdf)**
 
 ---
 
