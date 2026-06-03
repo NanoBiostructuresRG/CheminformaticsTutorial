@@ -53,9 +53,14 @@ To complete the training and obtain credit, participants are required to engage 
 - **[Pubchem Data Retrieval](https://nbviewer.org/github/NanoBiostructuresRG/CheminformaticsTutorial/blob/main/modules/M1_Data_Acquisition/notebooks/01_pubchem_data_retrieval.ipynb)**
 - **[PUG-REST and HTTP-POST Requests](https://nbviewer.org/github/NanoBiostructuresRG/CheminformaticsTutorial/blob/main/modules/M1_Data_Acquisition/notebooks/02_pugrest_post_requests.ipynb)**
 - **[ChEMBL Data Retrieval](https://nbviewer.org/github/NanoBiostructuresRG/CheminformaticsTutorial/blob/main/modules/M1_Data_Acquisition/notebooks/03_chembl_data_retrieval.ipynb)**
-- **[Molecular Representation & Visualization](https://nbviewer.org/github/NanoBiostructuresRG/CheminformaticsTutorial/blob/main/modules/M1_Data_Acquisition/notebooks/04_molecular_representation_visualization.ipynb)**
+- **[Molecular Representation & Visualization](https://nbviewer.org/github/NanoBiostructuresRG/CheminformaticsTutorial/blob/main/modules/M1_Data_Acquisition/notebooks/04_molecular_representation.ipynb)**
 
 
+### End-of-Module Projects
+
+Participants will complete a project at the end of each module to demonstrate their understanding of the core concepts and their ability to apply the skills developed during the training.
+
+- **[Module 1](https://nbviewer.org/github/NanoBiostructuresRG/CheminformaticsTutorial/blob/main/modules/M1_Data_Acquisition/notebooks/05_final_project_M1.pdf)**
 
 ---
 
