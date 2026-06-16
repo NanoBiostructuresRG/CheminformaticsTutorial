@@ -8,9 +8,18 @@ layout: default
 
 
 ## Cheminformatics Tutorial
+ 
+Cheminformatics focuses on how chemical structures are represented, curated, analyzed, and used to support computational decisions. This tutorial introduces a reproducible workflow that begins with molecular data acquisition and ends with predictive modeling and ligand-based virtual screening.
 
-This tutorial provides a structured introduction to **Cheminformatics**, with emphasis on the theoretical and practical principles underlying ligand–receptor binding analysis. It guides users through the preparation of molecular input files, definition of docking parameters, execution of docking simulations, and interpretation of predicted binding modes and affinity estimates. The tutorial is intended as a pedagogical resource for the development of foundational competencies in docking-based computational analysis. For a more comprehensive treatment of the subject, readers are encouraged to consult specialized literature and additional online resources. Participants will complete a project at the end of each module to demonstrate their understanding of the core concepts and their ability to apply the skills developed during the training.
+Participants will learn how to retrieve molecular records from public databases such as PubChem and ChEMBL, represent structures using formats such as SMILES, InChI, InChIKey, SDF, and MOL, and convert these records into molecular objects for analysis. The tutorial also addresses common issues found in real datasets, including salts, duplicate entries, inconsistent structures, missing information, stereochemical ambiguity, and differences between database records and usable molecular structures.
 
+After data acquisition, the tutorial moves into curation, structural exploration, molecular descriptors, fingerprints, and feature engineering. These steps allow users to transform curated molecular collections into numerical representations that can be used to compare compounds, evaluate diversity, detect outliers, assess descriptor redundancy, visualize chemical space, and prepare data for machine learning.
+
+**[HDDFlyzer](https://github.com/NanoBiostructuresRG/hddflyzer)**is introduced as a tool for reproducible exploration of high-dimensional molecular descriptor spaces. Within the tutorial, it supports the analysis of curated molecular collections through descriptor tables, similarity relationships, dimensionality reduction, visualization, and traceable output files. Its role is to help users inspect the structure, diversity, and organization of chemical libraries before applying predictive modeling or virtual screening strategies.
+
+The final modules focus on supervised learning and ligand-based virtual screening. Users will train and evaluate models using descriptor and fingerprint matrices, interpret performance metrics and model limitations, and apply trained models to prioritize candidate compounds from larger chemical libraries.
+
+This tutorial is intended for learners who need a practical and conceptually grounded introduction to cheminformatics workflows. At the end of each module, participants will complete a project to demonstrate their understanding of the concepts, tools, and interpretation strategies developed during the training.
 
 ---
 
