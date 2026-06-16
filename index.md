@@ -15,7 +15,7 @@ Participants will learn how to retrieve molecular records from public databases 
 
 After data acquisition, the tutorial moves into curation, structural exploration, molecular descriptors, fingerprints, and feature engineering. These steps allow users to transform curated molecular collections into numerical representations that can be used to compare compounds, evaluate diversity, detect outliers, assess descriptor redundancy, visualize chemical space, and prepare data for machine learning.
 
-**[HDDFlyzer](https://github.com/NanoBiostructuresRG/hddflyzer)**is introduced as a tool for reproducible exploration of high-dimensional molecular descriptor spaces. Within the tutorial, it supports the analysis of curated molecular collections through descriptor tables, similarity relationships, dimensionality reduction, visualization, and traceable output files. Its role is to help users inspect the structure, diversity, and organization of chemical libraries before applying predictive modeling or virtual screening strategies.
+**[HDDFlyzer](https://github.com/NanoBiostructuresRG/hddflyzer)** is introduced as a tool for reproducible exploration of high-dimensional molecular descriptor spaces. Within the tutorial, it supports the analysis of curated molecular collections through descriptor tables, similarity relationships, dimensionality reduction, visualization, and traceable output files. Its role is to help users inspect the structure, diversity, and organization of chemical libraries before applying predictive modeling or virtual screening strategies.
 
 The final modules focus on supervised learning and ligand-based virtual screening. Users will train and evaluate models using descriptor and fingerprint matrices, interpret performance metrics and model limitations, and apply trained models to prioritize candidate compounds from larger chemical libraries.
 
@@ -64,6 +64,7 @@ To complete the training and obtain credit, participants are required to engage 
 - **[PUG-REST and HTTP-POST Requests](https://nbviewer.org/github/NanoBiostructuresRG/CheminformaticsTutorial/blob/main/modules/m1_data_acquisition/notebooks/02_pugrest_post_requests.ipynb)**
 - **[ChEMBL Data Retrieval](https://nbviewer.org/github/NanoBiostructuresRG/CheminformaticsTutorial/blob/main/modules/m1_data_acquisition/notebooks/03_chembl_data_retrieval.ipynb)**
 - **[Molecular Representation & Visualization](https://nbviewer.org/github/NanoBiostructuresRG/CheminformaticsTutorial/blob/main/modules/m1_data_acquisition/notebooks/04_molecular_representation.ipynb)**
+- **[Protein Data Acquisition from PDB](https://nbviewer.org/github/NanoBiostructuresRG/CheminformaticsTutorial/blob/main/modules/m1_data_acquisition/notebooks/05_protein_data_acquisition_from_PDB.ipynb)**
 
 
 ---

@@ -121,7 +121,11 @@ The purpose of this tutorial is to help you:
 
 ---
 
-**Author:** [Flavio F. Contreras-Torres](https://orcid.org/my-orcid?orcid=0000-0003-2375-131X). 
+**Authors:** [Flavio F. Contreras-Torres](https://orcid.org/0000-0003-2375-131X). 
+Tecnológico de Monterrey.     
+Monterrey, Mexico
+
+**Contributors:** [Fernanda I. Saldivar-González](https://orcid.org/0000-0002-0435-8662). 
 Tecnológico de Monterrey.     
 Monterrey, Mexico
 
